@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <h1 class="headerTitle">Portfolio</h1>
         <nav class="headerNav">
             <ul class="headerMenu">
                 <li class="menuItem">
-                    <a href="#" alt="Home">Home</a>
+                    <a href="index.html#home" alt="Home" class="menuItem">Home</a>
                 </li>
                 <li class="menuItem">
-                    <a href="index.html#aboutMe" alt="About Me">About Me</a>
+                    <a href="index.html#aboutMe" alt="About Me" class="menuItem">About Me</a>
                 </li>
                 <li class="menuItem">
-                    <a href="index.html#myWork" alt="My Work">My Work</a>
+                    <a href="index.html#myWork" alt="My Work" class="menuItem">My Work</a>
                 </li>
                 <li class="menuItem">
-                    <a href="index.html#contactMe" alt="Contact Me">Contact Me</a>
+                    <a href="index.html#contactMe" alt="Contact Me" class="menuItem">Contact Me</a>
                 </li>
             </ul>
         </nav>
@@ -31,15 +33,32 @@
 
     <main>
         <h2 class="mainTitle" id="aboutMe">About Me</h2>
-        <p class="mainText">Currently enrolled in a full-stack coding bootcamp</p>
+        <img src="images/WIN_20210221_14_55_14_Pro.jpg" alt="Jared Rice" class="mainImage"/>
+        <p class="mainText">Name: Jared Rice <br/> Age: 20 <br/> Currently enrolled in a full-stack coding bootcamp</p>
     </main>
 
-    <aside>
+    <aside class="aside">
         <h3 class="asideTitle" id="myWork">My Work</h3>
+        <section class="asideItem">
+            <img src="" alt="Meme 1" class="asideMeme"/>
+        </section>
+        <section class="asideItem">
+            <img src="" alt="Meme 2" class="asideMeme"/>
+        </section>
+        <section class="asideItem">
+            <img src="" alt="Meme 3" class="asideMeme"/>
+        </section>
+        <section class="asideItem">
+            <img src="" alt="Meme 4" class="asideMeme"/>
+        </section>
     </aside>
 
-    <footer>
+    <footer class="footer">
         <h4 class="footerTitle" id="contactMe">Contact Me</h4>
+        <section class="footerLink">
+            <a href="mailto:ricjm008@mymail.unisa.edu.au">Email me at ricjm008@mymail.unisa.edu.au</a>
+            <a href="github.com/ricjm008">My Github Page</a>
+        </section>
     </footer>
     
 </body>

@@ -1,23 +1,37 @@
 * {
-   
+   box-sizing: border-box;
 }
 
 body {
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+}
 
+a {
+    text-decoration: none;
+    
 }
 
 .header {
-    display: inline-flex;
+    display: flex;
+    color: white;
+    background-color: brown;
+    margin: auto;
+    justify-content: space-between;
     
 }
 
 .headerTitle {
-    font-family: 'Roboto';
+
 
 }
 
 .headerNav {
+    font-style: normal;
+    margin: auto 0;
     
+    
+
 }
 
 .headerMenu {
@@ -28,5 +42,48 @@ body {
 }
 
 .menuItem {
+    margin: 6px;
+    color:white;
+    text-align: center;
+}
 
+.mainTitle {
+    
+}
+
+.mainImage {
+    height: 150px;
+    width: auto;
+}
+
+.mainText {
+
+}
+
+.aside {
+
+}
+
+.asideTitle {
+
+}
+
+.asideItem {
+
+}
+
+.asideMeme {
+
+}
+
+.footer {
+
+}
+
+.footerTitle {
+
+}
+
+.footerLink {
+    
 }
