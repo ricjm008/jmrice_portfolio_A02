@@ -17,11 +17,12 @@ body {
 }
 
 .headerNav {
-
+    
 }
 
 .headerMenu {
     list-style-type: none;
+    display: inline-flex;
     
 
 }
