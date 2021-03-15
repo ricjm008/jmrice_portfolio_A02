@@ -5,6 +5,7 @@
 body {
     font-family: 'Libre Franklin', sans-serif;
     margin: 0;
+    
 }
 
 a {
@@ -14,6 +15,7 @@ a {
 
 .header {
     display: flex;
+    width: auto;
     color: white;
     background-color: brown;
     margin: auto;
@@ -48,6 +50,16 @@ a {
 }
 
 .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    
+
+}
+
+.mainMain {
+    flex-direction: column;
 
 }
 
@@ -56,8 +68,8 @@ a {
 }
 
 .mainImage {
-    height: 150px;
-    width: auto;
+    flex-basis: content;
+    width: 200px;
 }
 
 .mainText {
@@ -66,12 +78,16 @@ a {
 
 .aside {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-right: 50px;
+    width: 500px;
+    flex-wrap: wrap;
     
 }
 
 .asideTitle {
-
+    width: 100%;
 }
 
 .asideItem {
@@ -79,11 +95,20 @@ a {
 }
 
 .asideMeme {
+    width:200px;
+    margin: 20px;
+    transition: all 0.3s;
+}
+
+.asideMeme:hover {
+    width: 250px;
 
 }
 
 .footer {
-
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
 }
 
 .footerTitle {
@@ -91,5 +116,5 @@ a {
 }
 
 .footerLink {
-
+    display: block;
 }
