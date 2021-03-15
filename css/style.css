@@ -23,11 +23,6 @@ a {
     
 }
 
-.headerTitle {
-
-
-}
-
 .headerNav {
     font-style: normal;
     margin: auto 0;
@@ -63,17 +58,9 @@ a {
 
 }
 
-.mainTitle {
-    
-}
-
 .mainImage {
     flex-basis: content;
     width: 200px;
-}
-
-.mainText {
-
 }
 
 .aside {
@@ -91,7 +78,7 @@ a {
 }
 
 .asideItem {
-
+    justify-content: baseline;
 }
 
 .asideMeme {
@@ -101,7 +88,7 @@ a {
 }
 
 .asideMeme:hover {
-    width: 250px;
+    width: 220px;
 
 }
 
@@ -109,12 +96,38 @@ a {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-}
-
-.footerTitle {
-
+    text-align: center;
 }
 
 .footerLink {
     display: block;
+    margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .headerMenu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .aside {
+        flex-direction: column;
+        width:auto;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .main {
+        flex-direction: column;
+    }
 }
