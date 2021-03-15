@@ -7,24 +7,25 @@ body {
 }
 
 .header {
+    display: inline-flex;
     
 }
 
-.header-title {
+.headerTitle {
     font-family: 'Roboto';
 
 }
 
-.header-nav {
+.headerNav {
 
 }
 
-.header-menu {
+.headerMenu {
     list-style-type: none;
     
 
 }
 
-.menu-item {
+.menuItem {
 
 }
