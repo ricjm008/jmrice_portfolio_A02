@@ -86,7 +86,7 @@ a {
     margin: 20px;
     transition: all 0.3s;
 }
-
+/* Animates the hover transition */
 .asideMeme:hover {
     width: 220px;
 
@@ -103,7 +103,7 @@ a {
     display: block;
     margin: 10px;
 }
-
+/* When the viewport shrinks past where the navbar can be displayed horizontally it is made into a column */
 @media screen and (max-width: 480px) {
 
     .header {
@@ -118,14 +118,14 @@ a {
         
     }
 }
-
+/* When the viewport shrinks past where the aside can be displayed in a row it converts to a column */
 @media screen and (max-width: 530px) {
     .aside {
         flex-direction: column;
         width:auto;
     }
 }
-
+/* When the viewport shrinks past where the aside can be viewed next to the main body it displays them as a column */
 @media screen and (max-width: 999px) {
     .main {
         flex-direction: column;
