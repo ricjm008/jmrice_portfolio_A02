@@ -47,6 +47,10 @@ a {
     text-align: center;
 }
 
+.main {
+
+}
+
 .mainTitle {
     
 }
@@ -61,7 +65,9 @@ a {
 }
 
 .aside {
-
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .asideTitle {
@@ -85,5 +91,5 @@ a {
 }
 
 .footerLink {
-    
+
 }
